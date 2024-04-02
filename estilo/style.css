@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('/fontes/OpenSans-VariableFont_wdth\,wght.ttf') format('opentype');
+    font-weight: normal;
+}
+
+:root {
+    --cor0: #141259;
+    --cor1: #0477BF;
+    --cor3: #04C4D9;
+    --cor4: #05F2F2;
+    --cor4: #F2811D;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: "Open Sans", sans-serif;
+    --font-OpenSans: 'OpenSans', cursive;
+}
+
+body {
+    padding: 10px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: white;
+    font-family: var(--fonte-padrao);
+}
+
+header>h1 {
+    color: #141259;
+    font-family: var(--fonte-destaque);
+}
+
+nav {
+    margin: 5px;
+    background-color: var(--cor1);
+}
+
+main {
+    background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            
+            min-width: 280px;
+            max: width 800px;
+            margin: auto;
+}
+
+img{
+    width: 100%;
+}
+
+main h1 {
+
+    color: #141259;
+    
+}
+
+footer img {
+
+    width: 100%;
+}
